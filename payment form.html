@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width initial-scale=1.0">
+    </head>
+    <style>
+        body{
+            background-image:url('newyork.jpg');
+            
+        }
+    .nav{
+        width:1000px;
+        height:50px;
+        color:aquamarine;
+        background-color:black;
+        font-size:30px;
+        border-radius:100px;
+    }
+    ul,li{
+        margin-top:50px;
+        margin-left:100px;
+        display:inline;
+        padding:10px;
+        font-family:sans-serif;
+    }
+</style>
+    <body style="color:rgb(0, 255, 238); background-color:black;">
+<div class="nav" align="center"><li>PAYMENT PAGE</li></div><br>&nbsp;&nbsp;
+<div align="center">
+<p>CARD TYPE: *
+<select name="card_type" id="card_type">
+<option value="">--select a card type--</option>
+<option value="visa">VISA</option>
+<option value="rupay">RUPAY</option>
+<option value="hr">HR</option>
+</select>
+</p><br>
+<p>
+CARD NUMBER: * <input type="number" name="card_number" id="card_number" required>
+</p><br>
+<p>
+Expiration date: * <input type="date" name="exp_date" id="exp_date" required>
+</p><br>
+<p>
+CVV: * <input type="password" name="CVV" id="CVV" required>
+</p><br>
+<p>
+    ENTER AMOUNT: * <input type="number" name="enter_amount" id="enter_amount" required>
+</p><br>
+<a href="" style="color:goldenrod;"><input type="submit" value="PAY NOW"></a>
+</div>
+</body>
+</html>
